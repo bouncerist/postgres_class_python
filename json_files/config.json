@@ -1,0 +1,14 @@
+{
+  "database": {
+    "dbname": "postgres",
+    "user": "postgres_user",
+    "password": "postgres_password",
+    "host": "localhost",
+    "port": "5432"
+  },
+  "csv_paths": {
+    "clients": "./data_for_tables/clients.csv",
+    "cards": "./data_for_tables/cards.csv",
+    "transactions": "./data_for_tables/transactions.csv"
+  }
+}
