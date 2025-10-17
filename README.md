@@ -39,7 +39,9 @@ docker-compose up -d
 ### Open DBeaver and configure connection to the database (containers must be running)
 ### Open SQL files from the queries directory
 ### Set database context at the beginning of each script
+  USE database_name;
 ### Execute each query separately
 
 ## To stop working with the repository and clean up:  
 docker-compose down -v
+
